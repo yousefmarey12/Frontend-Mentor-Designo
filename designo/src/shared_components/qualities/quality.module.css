@@ -1,0 +1,31 @@
+.quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+    position: relative;
+    gap: 24px;
+}
+
+.oval {
+    opacity: 20%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    background: linear-gradient(90deg, rgba(93, 2, 2, 0), rgba(93, 2, 2, 0.5));
+    left: 50%;
+    top: 30%;
+    z-index: -1;
+}
+
+
+.image {
+    height: 200px;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dnvjn55ti/image/upload/v1744382557/illustration-passionate_shluz7.svg');
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
